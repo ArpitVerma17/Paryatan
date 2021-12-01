@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paryatan</title>
+    <link rel="stylesheet" href="./register.css">
+  </head>
+  <body>    
+      <div class="container">
+      <h2>Login Now</h2>
+      <hr />
+      <br />
+      <div class="form">
+        UserEmail: <input type="email" name="email" id="email" placeholder="Enter your email"/> <br /><br />
+        Password: <input type="password" name="password" id="password" placeholder="Enter your password"/> <br /><br />
+      </div>
+
+      <div class="buttons">
+        <a href="register.html"><button id="sign">SignUp</button></a>
+        <button id="login" onclick="login();">Login</button>
+        <a href="index.html"><button>Home</button></a>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    <script src="./fireConfig.jss"></script>
+    <script src="./login.js"></script>
+  </body>
+</html>
